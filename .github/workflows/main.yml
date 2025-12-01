@@ -1,23 +1,26 @@
-name: Avaliador de Exercícios
+name: Autocorrecao
 
-on: [pull_request]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout do código
-      uses: actions/checkout@v3
+    - name: Checkout do codigo
+      uses: actions/checkout@v4
 
     - name: Instalar Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
 
-    - name: Instalar dependências
+    - name: Instalar dependencias
       run: npm install
 
     - name: Rodar Testes
       run: npm test
-      
