@@ -22,7 +22,7 @@ Abra o seu terminal (Git Bash ou Terminal do VS Code) e rode os comandos abaixo,
 
 ```bash
 # 1. Baixe o repositório para sua máquina
-git clone [https://github.com/Herick2D/exercicios.git](https://github.com/Herick2D/exercicios.git)
+git clone https://github.com/Herick2D/exercicios.git
 
 # 2. Entre na pasta do projeto
 cd exercicios
