@@ -41,7 +41,16 @@ git checkout -b meu-nome
 1. Abra a pasta do projeto no Vs Code.
 2. Navegue até a pasta `src` e abra o arquivo `exercicios.js`.
 3. Lá você encontrará 10 funções vazias. Sua missão é escrever a lógica dentro delas.
+4. Quando terminar, siga para os próximos níveis (veja a tabela abaixo).
 ```
+
+| Nível | Enunciado | Testes |
+|---|---|---|
+| Iniciante | `src/exercicios.js` | `tests/exercicios.test.js` |
+| Intermediário | `src/exercicios2.js` | `tests/exercicios2.test.js` |
+| Avançado | `src/exercicios3.js` | `tests/exercicios3.test.js` |
+
+Para rodar os testes de um nível específico: `npx jest exercicios2`
 
 _exemplo do que fazer:_
 ```
